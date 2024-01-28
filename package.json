@@ -2,13 +2,21 @@
     "name": "replace-palette",
     "displayName": "Replace Palette",
     "description": "Replace pixel colors of the current sprite.",
-    "version": "1.0",
+    "version": "1.0.0",
     "author": {
         "name": "Rafael Moreira Fonseca"
     },
     "contributes": {
         "scripts": [
-            { "path": "Replace Palette.lua" }
+            {
+                "path": "Replace Palette.lua"
+            }
+        ],
+        "keys": [
+            {
+                "id": "save_replace_palette",
+                "path": "./extension-keys.aseprite-keys"
+            }
         ]
     }
 }
